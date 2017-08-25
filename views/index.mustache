@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title> Game Time</title>
+        <link rel="stylesheet" href="/css/style.css">
+    </head>
+    <header>
+        <nav>
+            <a href="/"> Home</a>
+            <a href="/game">Game</a>
+            <a href="/login">Login</a>
+        </nav>
+    </header>
+
+<div class="game-start">
+    <h1> Guess or Lie</h1>
+
+</div>
+
+<div class="">
+<div class="word">
+  <h5 class="userPoint ">You Have {{#userPoint}}{{.}} {{/userPoint}} Life Left! </h5>
+  <h2 class="dash">{{#randomWordSplit}} {{.}}{{/randomWordSplit}}</h2>
+  <!-- <h2>randomWord</h2> -->
+</div>
+    <body>
+        <div class="guess">
+        <form class="" action="/" method="post">
+        <br>
+            <form class="" action="/guess " method="post">
+             <!-- <input class="guessbox" type="text" name="randomWord" value=""> -->
+             <br>
+             <input type="text" name="guess" value="" placeholder="type one letter" maxlength="1" >
+             <input type="submit" name="" value="Guess Now">
+             </form>
+        </div>
+        <div class="guessletter">
+        <h4> Your guess letter : {{#userGuessed}}{{.}}{{/userGuessed}}</h4>
+    </div>
+<div class="">
+    <img src="https://media.giphy.com/media/3ohzdTebGp2SQQpW2A/source.gif" alt="">
+</div>
+        <div class="message">
+             <h3>{{message}}</h3>
+           </div>
+
+    </body>
+</html>

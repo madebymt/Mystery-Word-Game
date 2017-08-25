@@ -1,0 +1,68 @@
+.game-start {
+    font-size: 40px;
+    color:white;
+    text-align: center;
+    background: brown;
+    padding: 40px;
+}
+
+h4 {
+    font-size: 20px;
+    color:brown;
+    margin-left: 200px;
+}
+
+.guessbox {
+    /*border-bottom: 2px solid grey;
+    border: 1px solid grey;*/
+    padding: 15px;
+    width: 250px;
+    margin-bottom: 10px;
+
+}
+
+input[type="text"] {
+    padding: 15px;
+    width: 250px;
+}
+
+input[type="submit"] {
+    background: brown;
+    color:white;
+    padding:10px;
+    font-size: 15px;
+}
+
+.guess {
+    width: 500px;
+    margin-left: 200px;
+
+}
+
+nav {
+    text-align: center;
+    margin:10px;
+    text-decoration: none;
+    color: grey;
+}
+
+.word {
+    width: 700px;
+    margin-left: 200px;
+}
+
+.dash {
+    margin: 10px;
+    font-size: 30px;
+    color: brown;
+}
+
+.userPoint {
+   color:grey;
+   font-size: 18px;
+
+}
+
+img {
+    margin-left: : 200px;
+}
